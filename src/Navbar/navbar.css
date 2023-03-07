@@ -1,0 +1,28 @@
+@import '../App.css';
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    padding: 0px 60px;
+}
+.navbar-nav{
+    padding: 0px 60px;
+    margin-top: 20px;
+}
+.navbar.scroll{
+    background: #0b212d;
+    padding: 10px;
+}
+.nav-link{
+    color: #fff;
+    margin-left: 8px;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: #68A4C4;
+    border-bottom: 1px solid #68A4C4;
+}

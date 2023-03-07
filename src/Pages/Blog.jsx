@@ -2,13 +2,19 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
 
+
 const Blog = () => {
+    
+   
     return (
         <div>
+
             <Navbar />
+
+           
+
             <main id="main">
 
-                
                 <section class="breadcrumbs">
                     <div class="container">
 
@@ -34,7 +40,7 @@ const Blog = () => {
                                 <article class="entry">
 
                                     <div class="entry-img">
-                                        <img src="bak-stores/img/blog/entrepreneur.jpg" alt="" class="img-fluid"/>
+                                        <img src="bak-stores/img/blog/entrepreneur.jpg" alt="" class="img-fluid" />
                                     </div>
 
                                     <h2 class="entry-title">
@@ -64,7 +70,7 @@ const Blog = () => {
                                 <article class="entry">
 
                                     <div class="entry-img">
-                                        <img src="bak-stores/img/blog/services.jpg" alt="" class="img-fluid"/>
+                                        <img src="bak-stores/img/blog/services.jpg" alt="" class="img-fluid" />
                                     </div>
 
                                     <h2 class="entry-title">
@@ -94,7 +100,7 @@ const Blog = () => {
                                 <article class="entry">
 
                                     <div class="entry-img">
-                                        <img src="bak-stores/img/blog/femmes.jpg" alt="" class="img-fluid"/>
+                                        <img src="bak-stores/img/blog/femmes.jpg" alt="" class="img-fluid" />
                                     </div>
 
                                     <h2 class="entry-title">
@@ -124,7 +130,7 @@ const Blog = () => {
                                 <article class="entry">
 
                                     <div class="entry-img">
-                                        <img src="bak-stores/img/blog/femmes-affaires.jpg" alt="" class="img-fluid"/>
+                                        <img src="bak-stores/img/blog/femmes-affaires.jpg" alt="" class="img-fluid" />
                                     </div>
 
                                     <h2 class="entry-title">
@@ -169,7 +175,7 @@ const Blog = () => {
                                     <div class="sidebar-item search-form">
                                         <form action="">
                                             <input type="text" />
-                                                <button type="submit"><i class="bi bi-search"></i></button>
+                                            <button type="submit"><i class="bi bi-search"></i></button>
                                         </form>
                                     </div>
 
@@ -188,33 +194,33 @@ const Blog = () => {
                                     <h3 class="sidebar-title">Messages récents</h3>
                                     <div class="sidebar-item recent-posts">
                                         <div class="post-item clearfix">
-                                            <img src="bak-stores/img/blog/team-1.jpg" alt=""/>
-                                                <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
-                                                <time datetime="2020-01-01">2 Jan 2023</time>
+                                            <img src="bak-stores/img/blog/team-1.jpg" alt="" />
+                                            <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
+                                            <time datetime="2020-01-01">2 Jan 2023</time>
                                         </div>
 
                                         <div class="post-item clearfix">
-                                            <img src="bak-stores/img/blog/team-2.jpg" alt=""/>
-                                                <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
-                                                <time datetime="2020-01-01">2 Fev 2023</time>
+                                            <img src="bak-stores/img/blog/team-2.jpg" alt="" />
+                                            <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
+                                            <time datetime="2020-01-01">2 Fev 2023</time>
                                         </div>
 
                                         <div class="post-item clearfix">
-                                            <img src="bak-stores/img/blog/team-3.jpg" alt=""/>
-                                                <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
-                                                <time datetime="2020-01-01">2 Jan 2023</time>
+                                            <img src="bak-stores/img/blog/team-3.jpg" alt="" />
+                                            <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                                            <time datetime="2020-01-01">2 Jan 2023</time>
                                         </div>
 
                                         <div class="post-item clearfix">
-                                            <img src="bak-stores/img/blog/team-4.jpg" alt=""/>
-                                                <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
-                                                <time datetime="2020-01-01">20 Jan 2023</time>
+                                            <img src="bak-stores/img/blog/team-4.jpg" alt="" />
+                                            <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
+                                            <time datetime="2020-01-01">20 Jan 2023</time>
                                         </div>
 
                                         <div class="post-item clearfix">
-                                            <img src="bak-stores/img/blog/team-5.jpg" alt=""/>
-                                                <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                                                <time datetime="2020-01-01">15 Jan 2023</time>
+                                            <img src="bak-stores/img/blog/team-5.jpg" alt="" />
+                                            <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
+                                            <time datetime="2020-01-01">15 Jan 2023</time>
                                         </div>
 
                                     </div>
@@ -244,9 +250,11 @@ const Blog = () => {
 
                     </div>
                 </section>
-
             </main>
+
             <Footer />
+
+
         </div>
     )
 }

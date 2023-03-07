@@ -1,17 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react';
+import "./navbar.css";
 
 const TopNav = () => {
 
+  const [navbar, setNavbar] = useState(false);
+  const changeBg = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  }
+  window.addEventListener("scroll", changeBg);
+
   return (
-    <header id="header" class="fixed-top d-flex align-items-center header-transparent p-2">
-    <div class="container d-flex justify-content-between align-items-center">
+    <>
+      <header id="" className={navbar ? 'header active' : 'fixed-top d-flex align-items-center'}>
+        <div className="container d-flex justify-content-between align-items-center">
 
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>SUNU ASS</span></a></h1>
-        
-      </div>
+          <div className="logo">
+            <h1 className="text-light"><a href="/"><span>SUNU ASS</span></a></h1>
 
-      <nav id="navbar" className="navbar">
+          </div>
+
+          <nav id="navbar" className="navbar">
             <ul>
               <li><a className="active " href="/">Accueil</a></li>
               <li><a href="/propos">A propos</a></li>
@@ -25,8 +37,9 @@ const TopNav = () => {
             <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>
 
-    </div>
-  </header>
+        </div>
+      </header>
+    </>
   )
 }
 
